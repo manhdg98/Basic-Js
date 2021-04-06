@@ -1,0 +1,5 @@
+class bg {
+    constructor(game) {
+
+    }
+}
