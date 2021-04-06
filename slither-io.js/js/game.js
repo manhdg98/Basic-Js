@@ -6,7 +6,8 @@ class game {
         this.canvas.height = SCREEN_HEIGHT;
         document.body.appendChild(this.canvas);
 
-        this.snack = new snack(this);
+        this.snake = new snake(this);
+        this.bg = new bg(this);
         this.screen = new screen(this);
 
         this.loop();
@@ -19,7 +20,9 @@ class game {
     }
 
     update() {
-        this.snack.update();
+        this.snake.update();
+        this.screen.update();
+        this.bg.update();
     }
 
     clearScreen() {
@@ -29,8 +32,8 @@ class game {
 
     draw() {
         this.clearScreen();
-        this.snack.draw();
-        this.screen.drawCircle({x: 100, y: 100});
+        this.snake.draw();
+        this.bg.draw();
     }
 }
 

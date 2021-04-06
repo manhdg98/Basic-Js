@@ -8,10 +8,10 @@ class screen {
     }
 
     update() {
-        this.top = this.game.snack.y - (SCREEN_HEIGHT / 2);
-        this.bottom = this.game.snack.y + (SCREEN_HEIGHT / 2);
-        this.left = this.game.snack.x - (SCREEN_HEIGHT / 2);
-        this.right = this.game.snack.x + (SCREEN_HEIGHT / 2);
+        this.top = this.game.snake.y - (SCREEN_HEIGHT / 2);
+        this.bottom = this.game.snake.y + (SCREEN_HEIGHT / 2);
+        this.left = this.game.snake.x - (SCREEN_HEIGHT / 2);
+        this.right = this.game.snake.x + (SCREEN_HEIGHT / 2);
     }
 
     drawCircle(pos) {
