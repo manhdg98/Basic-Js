@@ -21,8 +21,8 @@ class game {
 
     update() {
         this.snake.update();
-        this.screen.update();
         this.bg.update();
+        this.screen.update();
     }
 
     clearScreen() {
@@ -32,8 +32,8 @@ class game {
 
     draw() {
         this.clearScreen();
-        this.snake.draw();
         this.bg.draw();
+        this.snake.draw();
     }
 }
 

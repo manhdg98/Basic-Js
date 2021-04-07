@@ -28,7 +28,7 @@ class bg {
             currentLineX += GRID_SIZE
         }
 
-        let firstLineY = GRID_SIZE - (this.game.snake.x % GRID_SIZE);
+        let firstLineY = GRID_SIZE - (this.game.snake.y % GRID_SIZE);
 
         let currentLineY = firstLineY;
         while(currentLineY <= SCREEN_WIDTH) {
