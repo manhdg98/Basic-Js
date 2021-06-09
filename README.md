@@ -4,3 +4,4 @@
  
  
  1. Call stack
+ 2. Function Invoke
