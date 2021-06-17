@@ -8,3 +8,4 @@ Source: https://github.com/leonardomso/33-js-concepts#30-inheritance-polymorphis
  2. Function Invoke
  3. == && ===
  4. Promise
+ 5. LIFE
